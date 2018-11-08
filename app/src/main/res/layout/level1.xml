@@ -1,0 +1,51 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear2"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="@drawable/level1"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="#FFFFFF"
+			android:gravity="center_horizontal"
+			android:text="I have a question for you.\nGive me the answer."
+			android:textSize="20sp"
+			android:textColor="#000000"
+			android:translationY="130.0dp"
+			android:layout_gravity="center_horizontal"/>
+		<EditText
+			android:id="@+id/edittext1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:padding="10dp"
+			android:background="#FFE0B2"
+			android:textSize="20sp"
+			android:textColor="#000000"
+			android:hint="Enter answer"
+			android:textColorHint="#607D8B"
+			android:translationY="150.0dp"/>
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="#FF9100"
+			android:text="Submit"
+			android:textSize="20sp"
+			android:textColor="#000000"
+			android:translationY="200.0dp"
+			android:layout_gravity="center_horizontal|bottom"/>
+	</LinearLayout>
+</LinearLayout>

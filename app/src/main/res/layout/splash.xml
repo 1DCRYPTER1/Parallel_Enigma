@@ -1,0 +1,47 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="@drawable/background"
+		android:gravity="center_horizontal|bottom"
+		android:orientation="vertical"
+		android:scaleX="2.0">
+		<TextView
+			android:id="@+id/title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:text="Parallel Enigma"
+			android:textSize="40sp"
+			android:textColor="#18FFFF"
+			android:translationY="-400.0dp"
+			android:scaleX="0.5"
+			android:layout_gravity="center_horizontal|center_vertical"/>
+		<ProgressBar
+			android:id="@+id/progressbar1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:scaleX="0.5"
+			android:indeterminate="true"
+			style="?android:progressBarStyle"/>
+		<TextView
+			android:id="@+id/loading"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Loading..."
+			android:textSize="16sp"
+			android:textColor="#46FFCF"
+			android:scaleX="0.5"/>
+	</LinearLayout>
+</LinearLayout>
