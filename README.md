@@ -11,7 +11,7 @@ Screenshots:
 Look for subtle clues, built on what you learn, and as you progress patterns will emerge.  
 They might be at places you won't imagine.  
 All necessary tools to succeed have been provided.**  
-**Change Log:**
+> **Change Log:**
 ```
 v1.2
 - Fixed UI Bugs.
