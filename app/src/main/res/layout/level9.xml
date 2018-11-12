@@ -27,6 +27,8 @@
 			android:textSize="18sp"
 			android:textColor="#000000"
 			android:hint="Answer"
-			android:textColorHint="#607D8B"/>
+			android:textColorHint="#607D8B"
+			android:singleLine="true"
+			android:imeOptions="actionNext"/>
 	</LinearLayout>
 </LinearLayout>

@@ -17,6 +17,7 @@ import android.view.animation.*;
 import java.util.*;
 import java.text.*;
 import android.app.Activity;
+import android.widget.ScrollView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.ImageView;
@@ -28,12 +29,12 @@ import android.graphics.Typeface;
 public class AboutActivity extends Activity {
 	
 	
+	private ScrollView vscroll1;
 	private LinearLayout linear1;
 	private TextView appnm;
 	private ImageView imageview2;
 	private TextView desp;
 	private TextView vinfo;
-	private LinearLayout linear2;
 	private ImageView imageview1;
 	private TextView contxt;
 	
@@ -48,12 +49,12 @@ public class AboutActivity extends Activity {
 	
 	private void initialize() {
 		
+		vscroll1 = (ScrollView) findViewById(R.id.vscroll1);
 		linear1 = (LinearLayout) findViewById(R.id.linear1);
 		appnm = (TextView) findViewById(R.id.appnm);
 		imageview2 = (ImageView) findViewById(R.id.imageview2);
 		desp = (TextView) findViewById(R.id.desp);
 		vinfo = (TextView) findViewById(R.id.vinfo);
-		linear2 = (LinearLayout) findViewById(R.id.linear2);
 		imageview1 = (ImageView) findViewById(R.id.imageview1);
 		contxt = (TextView) findViewById(R.id.contxt);
 		

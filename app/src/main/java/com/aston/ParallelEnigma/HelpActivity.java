@@ -17,6 +17,7 @@ import android.view.animation.*;
 import java.util.*;
 import java.text.*;
 import android.app.Activity;
+import android.widget.ScrollView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Button;
@@ -26,10 +27,10 @@ import android.graphics.Typeface;
 public class HelpActivity extends Activity {
 	
 	
+	private ScrollView vscroll1;
 	private LinearLayout linear2;
 	private TextView hlptxt;
 	private TextView greetings;
-	private LinearLayout linear3;
 	private Button okbtn;
 	@Override
 	protected void onCreate(Bundle _savedInstanceState) {
@@ -41,10 +42,10 @@ public class HelpActivity extends Activity {
 	
 	private void initialize() {
 		
+		vscroll1 = (ScrollView) findViewById(R.id.vscroll1);
 		linear2 = (LinearLayout) findViewById(R.id.linear2);
 		hlptxt = (TextView) findViewById(R.id.hlptxt);
 		greetings = (TextView) findViewById(R.id.greetings);
-		linear3 = (LinearLayout) findViewById(R.id.linear3);
 		okbtn = (Button) findViewById(R.id.okbtn);
 		
 		okbtn.setOnClickListener(new View.OnClickListener() {

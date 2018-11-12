@@ -34,7 +34,10 @@
 			android:textSize="20sp"
 			android:textColor="#C6FF00"
 			android:hint="Answer"
-			android:textColorHint="#607D8B"/>
+			android:textColorHint="#607D8B"
+			android:singleLine="true"
+			android:lines="1"
+			android:imeOptions="actionNext"/>
 		<Button
 			android:id="@+id/button1"
 			android:layout_width="wrap_content"

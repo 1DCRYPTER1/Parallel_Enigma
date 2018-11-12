@@ -40,7 +40,9 @@
 			android:textSize="20sp"
 			android:textColor="#C8B880"
 			android:hint="Answer"
-			android:textColorHint="#C8B880"/>
+			android:textColorHint="#C8B880"
+			android:singleLine="true"
+			android:imeOptions="actionNext"/>
 		<Button
 			android:id="@+id/button1"
 			android:layout_width="wrap_content"

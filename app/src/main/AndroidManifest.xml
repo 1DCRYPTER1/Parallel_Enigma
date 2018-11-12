@@ -24,7 +24,8 @@
 			android:name=".Level1Activity"
 			android:configChanges="orientation|screenSize"
 			android:theme="@style/NoStatusBar"
-			android:screenOrientation="portrait"/>
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
 		<activity
 			android:name=".Level2Activity"
 			android:configChanges="orientation|screenSize"
@@ -41,12 +42,14 @@
 			android:name=".Level4Activity"
 			android:configChanges="orientation|screenSize"
 			android:theme="@style/NoStatusBar"
-			android:screenOrientation="portrait"/>
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
 		<activity
 			android:name=".Level5Activity"
 			android:configChanges="orientation|screenSize"
 			android:theme="@style/NoStatusBar"
-			android:screenOrientation="portrait"/>
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
 		<activity
 			android:name=".Level6Activity"
 			android:configChanges="orientation|screenSize"
@@ -57,17 +60,20 @@
 			android:name=".Level7Activity"
 			android:configChanges="orientation|screenSize"
 			android:theme="@style/NoStatusBar"
-			android:screenOrientation="portrait"/>
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
 		<activity
 			android:name=".Level8Activity"
 			android:configChanges="orientation|screenSize"
 			android:theme="@style/NoStatusBar"
-			android:screenOrientation="portrait"/>
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
 		<activity
 			android:name=".Level9Activity"
 			android:configChanges="orientation|screenSize"
 			android:theme="@style/NoStatusBar"
-			android:screenOrientation="portrait"/>
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
 		<activity
 			android:name=".Level10Activity"
 			android:configChanges="orientation|screenSize"

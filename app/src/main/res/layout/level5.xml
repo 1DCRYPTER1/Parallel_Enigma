@@ -25,7 +25,10 @@
 			android:textSize="18sp"
 			android:textColor="#000000"
 			android:hint="Decoder"
-			android:textColorHint="#607D8B"/>
+			android:textColorHint="#607D8B"
+			android:singleLine="true"
+			android:lines="1"
+			android:imeOptions="actionNext"/>
 		<TextView
 			android:id="@+id/decoded"
 			android:layout_width="wrap_content"
@@ -46,6 +49,9 @@
 			android:textColor="#000000"
 			android:hint="Answer"
 			android:textColorHint="#607D8B"
+			android:singleLine="true"
+			android:lines="1"
+			android:imeOptions="actionNext"
 			android:layout_gravity="center_horizontal|bottom"/>
 	</LinearLayout>
 </LinearLayout>

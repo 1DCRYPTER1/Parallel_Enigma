@@ -31,7 +31,10 @@
 				android:textSize="18sp"
 				android:textColor="#887048"
 				android:hint="Answer"
-				android:textColorHint="#607D8B"/>
+				android:textColorHint="#607D8B"
+				android:singleLine="true"
+				android:lines="1"
+				android:imeOptions="actionNext"/>
 		</LinearLayout>
 	</LinearLayout>
 </LinearLayout>

@@ -36,7 +36,7 @@ public class MainActivity extends Activity {
 	private LinearLayout linear2;
 	private ImageView imageview3;
 	private TextView textview1;
-	private Button button2;
+	private Button playbtn;
 	private ImageView imageview2;
 	
 	private SharedPreferences savegame;
@@ -56,7 +56,7 @@ public class MainActivity extends Activity {
 		linear2 = (LinearLayout) findViewById(R.id.linear2);
 		imageview3 = (ImageView) findViewById(R.id.imageview3);
 		textview1 = (TextView) findViewById(R.id.textview1);
-		button2 = (Button) findViewById(R.id.button2);
+		playbtn = (Button) findViewById(R.id.playbtn);
 		imageview2 = (ImageView) findViewById(R.id.imageview2);
 		savegame = getSharedPreferences("savegame", Activity.MODE_PRIVATE);
 		msgbox = new AlertDialog.Builder(this);
@@ -69,7 +69,7 @@ public class MainActivity extends Activity {
 			}
 		});
 		
-		button2.setOnClickListener(new View.OnClickListener() {
+		playbtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View _view) {
 				startActivity(play);

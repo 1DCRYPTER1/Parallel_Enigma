@@ -35,6 +35,9 @@
 			android:textColor="#000000"
 			android:hint="Enter answer"
 			android:textColorHint="#607D8B"
+			android:singleLine="true"
+			android:lines="1"
+			android:imeOptions="actionNext"
 			android:translationY="150.0dp"/>
 		<Button
 			android:id="@+id/button1"

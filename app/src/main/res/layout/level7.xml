@@ -30,7 +30,7 @@
 				android:src="@drawable/link"
 				android:scaleType="center"
 				android:translationY="-140.0dp"
-				android:layout_gravity="left"/>
+				android:layout_gravity="left|top"/>
 			<ImageView
 				android:id="@+id/imageview5"
 				android:layout_width="40dp"
@@ -64,6 +64,8 @@
 				android:textColor="#48F0C0"
 				android:hint="Answer"
 				android:textColorHint="#40C8B0"
+				android:singleLine="true"
+				android:imeOptions="actionNext"
 				android:layout_gravity="center_horizontal|center_vertical"/>
 		</LinearLayout>
 	</LinearLayout>

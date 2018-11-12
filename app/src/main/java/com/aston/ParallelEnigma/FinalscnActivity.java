@@ -17,6 +17,7 @@ import android.view.animation.*;
 import java.util.*;
 import java.text.*;
 import android.app.Activity;
+import android.widget.ScrollView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.ImageView;
@@ -28,6 +29,7 @@ import android.graphics.Typeface;
 public class FinalscnActivity extends Activity {
 	
 	
+	private ScrollView vscroll1;
 	private LinearLayout linear1;
 	private TextView para1;
 	private TextView para2;
@@ -47,6 +49,7 @@ public class FinalscnActivity extends Activity {
 	
 	private void initialize() {
 		
+		vscroll1 = (ScrollView) findViewById(R.id.vscroll1);
 		linear1 = (LinearLayout) findViewById(R.id.linear1);
 		para1 = (TextView) findViewById(R.id.para1);
 		para2 = (TextView) findViewById(R.id.para2);
