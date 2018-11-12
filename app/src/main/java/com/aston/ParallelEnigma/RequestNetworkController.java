@@ -81,7 +81,7 @@ public class RequestNetworkController {
 					}
 				});
 			} catch(Exception e) {}
-
+			
 			client = builder.build();
 		}
 
